@@ -324,6 +324,12 @@ RESPONSIVE
  .nav-menu li.cat-4 a:hover, .nav-menu li.cat-4 a:focus {
      color: #8d00ff;
 }
+ .nav-menu li.cat-5 a:hover, .nav-menu li.cat-4 a:focus {
+     color: #e50000;
+}
+ .nav-menu li.cat-6 a:hover, .nav-menu li.cat-4 a:focus {
+     color: #ffd700;
+}
 /*----------------------------*\
 	search
 \*----------------------------*/
