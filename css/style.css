@@ -302,6 +302,9 @@ RESPONSIVE
  .nav-menu li.cat-4 a:after {
      background-color: #8d00ff;
 }
+ .nav-menu li.cat-5 a:after {
+     background-color: #e50000;
+}
  .nav-menu li a:hover, .nav-menu li a:focus {
      background-color: transparent;
      text-decoration: none;
