@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-
+.js .load, .js #loader-wrapper {
+  display: block;
+}
 
 .intro {
   width: 100%;
