@@ -25,7 +25,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet"> 
 		
 		<!-- Ładowanie -->
-		<link rel="stylesheet" href="../css/loader-style.css">
+		<link rel="stylesheet" href="css/fakeLoader.min.css">
 		
 		<!-- Widżety Social Media -->
 		<link href="../css/icomoon.css" rel="stylesheet">
@@ -74,7 +74,8 @@ window.cookieconsent.initialise({
 		
     </head>
 	<body>
-		
+	
+	<div class="fakeloader"></div>
 	<div class="slideout-widget widget-facebook">
 		<div class="slideout-widget-handler">
 			<i class="icon-facebook"></i>
@@ -308,5 +309,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jan P
 			});
 		</script>
 		
+	<script src="js/fakeLoader.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.fakeLoader({
+                    timeToHide:2000,
+                    bgColor:"#34495e",
+                    spinner:"spinner7"
+                });
+            });
+        </script>
+    	<div class="fakeLoader"></div>
+	
 	</body>
 </html>
